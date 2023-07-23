@@ -1,0 +1,47 @@
+.home .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 8rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #F6F6F6;
+    
+}
+
+.home .left {
+    padding: 1rem;
+}
+
+.home h1 {
+    padding: 1rem 0;
+}
+
+.home .right {
+    padding: 1rem;
+}
+
+.home .img-container {
+    width: 100%;
+    display: flex;
+}
+
+.home img {
+    max-width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 940px) {
+    .home .container {
+        grid-template-columns: 1fr;
+        margin: 3rem 0;
+    }
+
+    .home .left {
+        padding: 1rem;
+        padding-top: 3rem;
+    }
+    .home img {
+        max-width: 70%;
+    }
+}
