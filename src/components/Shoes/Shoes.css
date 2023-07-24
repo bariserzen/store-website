@@ -10,7 +10,7 @@
     max-width: 800px;
     height: 80vh;
     margin: 0 auto;
-    background-image: url('../img/shoes.jpg');
+    background-image: url('../../img/shoes.jpg');
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Store.css';
-import { PRODUCTS } from './Datashoes';
+import {PRODUCTS} from './Datashoes';
+
+
 
 
 const Store = () => {

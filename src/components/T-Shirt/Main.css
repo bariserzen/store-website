@@ -1,0 +1,39 @@
+.container-main{
+    background-color: black;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+.main {
+    display: flex;
+    max-width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    background-image: url('../../img/imgtshirt/t-shirt.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 70px;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.main button {
+    font-weight: 800;
+    font-size: 0.8rem;
+    background-color:white;
+    border: 4px solid grey;
+    border-radius: 5px;
+    margin-bottom: 8rem;
+    padding: 0.5rem 2rem;
+}
+
+.main button:hover {
+    padding: 0.6rem 2.2rem;
+    background-color: black;
+    color: white;
+}
