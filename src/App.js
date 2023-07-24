@@ -6,9 +6,9 @@ import Information from './components/Information';
 import Footer from './components/Footer';
 
 //pages
-import Main from './pages/Home';
-import Shoes from './pages/Shoes';
-import Socks from './pages/Socks';
+import MainPage from './pages/MainPage';
+import ShoesPage from './pages/ShoesPage';
+import TshirtPage from './pages/TshirtPage';
 
 
 // <>
@@ -29,9 +29,9 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Main/>} />
-          <Route path='/shoes' element={<Shoes/>}/>
-          <Route path='/socks' element={<Socks/>} />
+          <Route path='/' element={<MainPage/>} />
+          <Route path='/shoes' element={<ShoesPage/>}/>
+          <Route path='/t-shirt' element={<TshirtPage/>} />
         </Routes>
         <Information/>
         <Footer/>

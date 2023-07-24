@@ -6,7 +6,7 @@ import Line from '../components/Line';
 
 
 
-export default function Main() {
+export default function MainPage() {
     return(
         <>
         <Home />

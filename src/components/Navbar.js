@@ -30,7 +30,7 @@ const Navbar = () => {
             <ul className={click ? 'nav-menu active' : 'nav-menu'} onClick={CloseMenu}>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/shoes'>Shoes</Link></li>
-                <li> <Link to='/socks'>Socks</Link></li>
+                <li> <Link to='/t-shirt'>T-shirt</Link></li>
                 <li> Sign up </li>
             </ul>
 
