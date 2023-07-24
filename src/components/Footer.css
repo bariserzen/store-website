@@ -1,0 +1,67 @@
+.container-footer{
+    background-color: white;
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.7rem 0rem;
+}
+
+.footer {
+    margin: 0 auto;
+}
+
+th {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+td {
+    padding: 0.3rem 2rem;
+    font-weight: 500;
+}
+
+.brand img {
+    width: 30%;
+}
+
+.brand .social {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: 1rem auto;
+}
+
+
+@media screen and (max-width: 760px) {
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0rem auto;
+        
+    }
+    .brand {
+        margin: 1rem auto;
+    }
+
+    .footer {
+        margin: 0 auto;
+    }
+    
+    th {
+        padding-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    td {
+        padding: 0.3rem 0.8rem;
+        font-weight: 500;
+    }
+
+    
+
+   
+}

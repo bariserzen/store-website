@@ -1,7 +1,7 @@
 .img-container {
     display: flex;
-    max-width: 100%;
-    margin: 2rem 0;
+    max-width: 1600px;
+    margin: 2rem auto;
 }
 
 .img-container img {

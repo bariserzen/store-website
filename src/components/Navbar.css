@@ -8,6 +8,7 @@
     background-color: black;
     position: sticky;
     z-index: 1000;
+    
 }
 
 .navbar img {
@@ -22,7 +23,7 @@
 .nav-menu li {
     margin: 0 1rem;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .ham-menu {

@@ -1,0 +1,53 @@
+.container-information {
+    max-width: 1200px;
+    margin: 5rem auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem;
+} 
+
+.information {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.information h3 {
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+
+@media screen and (max-width: 700px) {
+    .container-information {
+        max-width: 500px;
+        flex-direction: column;
+        padding: 0rem;
+        border-color: white;
+    } 
+
+    .information {
+        padding: 2rem 0rem;
+        border-bottom:  1rem solid white;
+    }
+    
+}
+
+
+@media screen and (max-width: 440px) {
+    .container-information {
+        max-width: 350px;
+        flex-direction: column;
+        padding: 0rem;
+        border-color: white;
+    } 
+
+    .information {
+        padding: 2rem 0rem;
+        border-bottom:  1rem solid white;
+    }
+    
+}
