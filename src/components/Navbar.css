@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:1rem;
+    padding: 1rem;
     background-color: black;
     position: sticky;
     z-index: 1000;
@@ -22,7 +22,7 @@
 .nav-menu li {
     margin: 0 1rem;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .ham-menu {

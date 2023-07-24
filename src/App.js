@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Find from './components/Find';
+import Line from './components/Line';
+import Blog from './components/Blog';
 
 
 
@@ -15,6 +17,8 @@ const App = () => {
       <Navbar/>
       <Home />
       <Find />
+      <Line/>
+      <Blog />
       
     </>
   );

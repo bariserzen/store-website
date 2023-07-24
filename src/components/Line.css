@@ -1,0 +1,28 @@
+.img-container {
+    display: flex;
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
+.img-container img {
+    max-width: 90%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 740px) {
+    
+    .img-container {
+        display: flex;
+        max-width: 100%;
+        margin: 0rem 0rem;
+    }
+    
+    .img-container img {
+        max-width: 100%;
+        margin: auto;
+    }
+    
+
+    
+}
